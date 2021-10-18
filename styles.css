@@ -1,0 +1,298 @@
+@font-face {
+  font-family: 'cocogoose';
+  src: url(./fonts/COCOGOOSE/Cocogoose_trial.woff) format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: cocogoose-lighter;
+  src: url(fonts/COCOGOOSE/Cocogoose_trial.ttf) format('truetype');
+  font-weight: lighter;
+  font-style: normal;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f9f9f9;
+  margin: 0;
+}
+
+.main-extra {
+  display: flex;
+  flex-direction: column;
+}
+
+.sec-hero {
+  padding: 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-left: 20px;
+}
+
+.hamb {
+  font-size: 30px;
+  color: #272a31;
+  padding-bottom: 30px;
+}
+
+.logo {
+  display: none;
+}
+
+.menu-mobile {
+  margin-top: 20px;
+}
+
+.menu-desktop {
+  display: none;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-h1 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  color: #ec5242;
+  margin-bottom: 0;
+}
+
+.hero-h2 {
+  font-family: 'cocogoose', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #ec5242;
+  font-size: 40px;
+  margin-top: 2%;
+  line-height: 1.1em;
+}
+
+.hero-p {
+  font-family: 'Lato', sans-serif;
+  color: #191919;
+  border: 3px solid #fff;
+  padding: 10px;
+  margin-top: 0;
+}
+
+.hero-date {
+  font-family: 'cocogoose', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #3a3939;
+  font-size: 1.5em;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  line-height: 1.1em;
+}
+
+.hero-address {
+  font-family: 'Lato', sans-serif;
+  color: #191919;
+  font-size: 1em;
+  margin-top: 0;
+}
+
+.main-section {
+  background-color: #272a31;
+  color: #fff;
+}
+
+.act-h3 {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Lato', sans-serif;
+  font-size: 40px;
+  align-self: center;
+  padding: 0;
+}
+
+.act-line hr {
+  width: 50%;
+  border: 1px solid #ec5242;
+}
+
+.extra-inside {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 1.5em;
+  padding: 10px;
+  margin: 5px;
+  background-color: rgba(212, 212, 212, 0.233);
+}
+
+.extra-inside h4 {
+  color: #ec5242;
+  font-family: 'Lato', sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.extra-inside p {
+  color: #d3d3d3;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  width: 70%;
+}
+
+.extra-in-icon {
+  align-self: center;
+}
+
+.extra-h4 {
+  align-self: center;
+}
+
+.act-button {
+  display: flex;
+  justify-content: center;
+  margin: 5%;
+}
+
+.act-button button {
+  padding: 5% 15%;
+  background-color: #ec5242;
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.3em;
+}
+
+.staff {
+  display: flex;
+  flex-direction: column;
+}
+
+.fs-h3 {
+  display: flex;
+  color: #111;
+  justify-content: center;
+}
+
+.staff-h3 {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Lato', sans-serif;
+  font-size: 30px;
+}
+
+.staff-members {
+  display: flex;
+  margin-bottom: 5%;
+}
+
+.science-t-pic {
+  width: 150px;
+}
+
+.staff-members li {
+  list-style: none;
+}
+
+.staff-members .science-teacher-ul {
+  font-family: 'Lato', sans-serif;
+}
+
+.staff-members .science-teacher-ul .name {
+  font-size: 1.3em;
+  font-weight: normal;
+  font-weight: 400;
+  color: #272a31;
+  padding-bottom: 5%;
+}
+
+.staff-members .science-teacher-ul .subject {
+  font-size: 1em;
+  font-style: italic;
+  font-weight: 300;
+  color: #ec2610;
+  padding-bottom: 5%;
+}
+
+.staff-members .science-teacher-ul hr {
+  width: 20%;
+  border: 1px solid #d3d3d3;
+  margin-left: 0;
+}
+
+.staff-members .science-teacher-ul .about {
+  font-size: 1em;
+  font-weight: normal;
+  font-weight: 300;
+  color: #272a31;
+  padding-top: 5%;
+}
+
+.more {
+  display: flex;
+  gap: 10px;
+  padding: 3% 0;
+  border: 1px solid #d3d3d3;
+  margin: 5% 5%;
+  justify-content: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.1em;
+  color: #636161;
+}
+
+.more-icon {
+  color: #ec2610;
+}
+
+@media only screen and (min-width: 768px) {
+  .menu-desktop {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+  }
+
+  .menu-mobile {
+    display: none;
+  }
+
+  .navbar {
+    background-color: #fff;
+  }
+
+  .logo {
+    display: flex;
+  }
+
+  .sec-hero {
+    margin: 10% 10%;
+  }
+
+  .hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .hero-h1 {
+    display: flex;
+    margin-bottom: 0;
+    font-size: 40px;
+  }
+
+  .hero-h2 {
+    display: flex;
+    font-size: 80px;
+    margin-top: 2%;
+    line-height: 1.1em;
+  }
+}
