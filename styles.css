@@ -267,10 +267,44 @@ body {
 
   .navbar {
     background-color: #fff;
+    width: 100%;
+    padding: 1% 10%;
+    font-family: 'Lato', sans-serif;
+    color: #191919;
+    font-size: 1em;
+    box-shadow: 3px 3px 5px 6px #ccc;
+    position: fixed;
+    top: 0;
+  }
+
+  .menu-desktop a {
+    text-decoration: none;
+    color: #191919;
+  }
+
+  .logo a {
+    text-decoration: none;
+    color: #191919;
+  }
+
+  .menu-desktop a:hover {
+    cursor: pointer;
+  }
+
+  .menu-desktop a:active {
+    color: #ec2610;
+  }
+
+  .menu-desktop a:visited {
+    color: #ec2610;
   }
 
   .logo {
     display: flex;
+  }
+
+  .logo a:hover {
+    cursor: pointer;
   }
 
   .sec-hero {
@@ -291,8 +325,13 @@ body {
 
   .hero-h2 {
     display: flex;
-    font-size: 80px;
+    font-size: 60px;
     margin-top: 2%;
     line-height: 1.1em;
+  }
+
+  .hero-p {
+    margin-right: 30%;
+    padding: 10px;
   }
 }
