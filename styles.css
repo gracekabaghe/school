@@ -114,6 +114,10 @@ body {
 .main-section {
   background-color: #272a31;
   color: #fff;
+  background-image: url(images/partner-bg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .act-h3 {
@@ -134,7 +138,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  gap: 1.5em;
+  gap: 5px;
   padding: 10px;
   margin: 5px;
   background-color: rgba(212, 212, 212, 0.233);
@@ -201,7 +205,8 @@ body {
 }
 
 .science-t-pic {
-  width: 150px;
+  max-width: 150px;
+  height: 150px;
 }
 
 .staff-members li {
@@ -351,6 +356,9 @@ body {
   .extra-inside {
     display: flex;
     flex-direction: column;
+    width: 150px;
+    justify-content: flex-start;
+    gap: 7px;
   }
 
   .extra-5 {
@@ -359,22 +367,15 @@ body {
     margin: 0 15%;
   }
 
-  .extra-in-icon {
-    display: flex;
-  }
-
   .extra-inside h4 {
     margin: 0;
-  }
-
-  .extra-inside .extra-h4 h4 {
-    padding-top: 0;
   }
 
   .extra-inside p {
     display: flex;
     width: 100%;
     margin: 0;
+    font-size: 10px;
   }
 
   .act-button {
@@ -391,6 +392,9 @@ body {
 
   .staff-members {
     display: flex;
+    padding: 0;
+    margin-right: 10px;
+    width: 60%;
   }
 
   .desktop-staff-members {
@@ -419,7 +423,7 @@ body {
     padding: 0;
     align-self: center;
     color: #636161;
-    margin: 5% 0;
+    margin-bottom: 0;
   }
 
   .partners-hr hr {
@@ -429,14 +433,27 @@ body {
 
   .footer {
     list-style: none;
-    background-color: #191919;
     color: #636161;
     display: flex;
     justify-content: center;
     gap: 10px;
     font-family: 'cocogoose', sans-serif;
-    font-size: 15px;
+    font-size: 30px;
     padding-top: 0;
+    background-color: #191919;
+  }
+
+  .google {
+    list-style: none;
+    background-color: #191919;
+    color: #636161;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    padding-top: 0;
+    font-weight: 300;
   }
 
   .sec-footer {
@@ -455,5 +472,30 @@ body {
     justify-content: center;
     gap: 50px;
     margin: 5% 0;
+    align-items: center;
+  }
+
+  .copyright {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 11px;
+    color: #d3d3d3;
+  }
+
+  .ft-add {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 15px;
+    color: #d3d3d3;
+  }
+
+  .footer-logo {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 30px;
+    color: #6d6c6c;
   }
 }
