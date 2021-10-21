@@ -5,9 +5,9 @@
 
 > ABS International School Site
 
-![screenshot](./app_screenshot.png)
+![screenshot](./images/shot.png)
 
-Additional description about the project and its features.
+The site features a new school that has a new teaching method.
 
 ## Built With
 
@@ -18,7 +18,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://gracekabaghe.github.io/school/)
 
 
 ## Getting Started
@@ -29,17 +29,8 @@ Additional description about the project and its features.
 
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
-
-### Setup
-
 ### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
+In github, clone: git@github.com:gracekabaghe/school.git
 
 
 
@@ -62,6 +53,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
+- Templated inspired by Cindy Shin https://www.behance.net/gallery/29845175/CC-Global-Summit-2015
 - Image by Prince Akachi - Unsplash
 - Photo by <a href="https://unsplash.com/@chrisjoelcampbell?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Christopher Campbell</a> on <a href="https://unsplash.com/s/photos/portrait?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
