@@ -295,8 +295,10 @@ article .about-21-in {
 }
 
 .act-line hr {
-  width: 50%;
+  width: 5%;
   border: 1px solid #ec5242;
+  margin-top: -20px;
+  margin-bottom: 40px;
 }
 
 .extra-inside {
@@ -399,8 +401,10 @@ article .about-21-in {
 }
 
 .partners-hr hr {
-  width: 50%;
+  width: 5%;
   border: 1px solid #ec5242;
+  margin-top: 20px;
+  margin-bottom: 40px;
 }
 
 .staff-members .science-teacher-ul hr {
@@ -501,11 +505,6 @@ article .about-21-in {
     position: fixed;
     top: 0;
   }
-
-  /* #nav-tag-about {
-    border: 4px solid #ec5242;
-
-  } */
 
   .menu-desktop a {
     text-decoration: none;
@@ -638,7 +637,7 @@ article .about-21-in {
   }
 
   .partners-hr hr {
-    width: 50%;
+    width: 5%;
     border: 1px solid #ec5242;
   }
 
