@@ -366,6 +366,11 @@ article .about-21-in {
   font-size: 30px;
 }
 
+.about-partners-hr hr {
+  width: 5%;
+  border: 1px solid #ec5242;
+}
+
 .staff-members {
   display: flex;
   margin-bottom: 5%;
@@ -490,11 +495,6 @@ article .about-21-in {
   align-self: center;
   color: #636161;
   margin-bottom: 0;
-}
-
-.about-partners-hr hr {
-  width: 5%;
-  border: 1px solid #ec5242;
 }
 
 .about-footer {
