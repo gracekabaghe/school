@@ -1,13 +1,13 @@
 @font-face {
   font-family: 'cocogoose';
-  src: url(./fonts/COCOGOOSE/Cocogoose_trial.woff) format('woff');
+  src: url(./fonts/cocogoose/Cocogoose\ Pro\ Semilight-trial.ttf) format('woff');
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: cocogoose-lighter;
-  src: url(fonts/COCOGOOSE/Cocogoose_trial.ttf) format('truetype');
+  src: url(fonts/cocogoose/Cocogoose\ Pro\ Light-trial.ttf) format('truetype');
   font-weight: lighter;
   font-style: normal;
 }
@@ -259,8 +259,8 @@ article .about-21-in {
 }
 
 .hero-date {
-  font-family: 'cocogoose', sans-serif;
-  font-weight: 300;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
   font-style: normal;
   color: #3a3939;
   font-size: 1.5em;
@@ -479,6 +479,10 @@ article .about-21-in {
   background-color: #191919;
 }
 
+.about-top-nav-cont {
+  display: none;
+}
+
 @media only screen and (min-width: 768px) {
   .menu-desktop {
     display: flex;
@@ -502,7 +506,7 @@ article .about-21-in {
     color: #191919;
     font-size: 1.3em;
     box-shadow: 3px 3px 5px 6px #ccc;
-    position: fixed;
+    /* position: fixed; */
     top: 0;
   }
 
@@ -725,5 +729,61 @@ article .about-21-in {
   .cont-about-21 {
     display: flex;
     gap: 20px;
+  }
+
+  .about-top-nav {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    color: #fff;
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    gap: 20px;
+    background-color: black;
+    margin-right: 15%;
+    padding-right: 10%;
+    align-items: center;
+    margin:0;
+  }
+
+  .about-top-nav-cont {
+    display: block;
+  }
+
+  #about-bottom-sec {
+    background-color: #191919;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    width: 100%;
+    padding: 8%;
+  }
+
+  #about-copyright {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 12px;
+    color: #fff;
+  }
+
+  #about-ft-add {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 15px;
+    color: #fff;
+  }
+
+  #about-hero {
+    display: flex;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  color: #ec5242;
+  margin-bottom: 0;
+  font-size: 15px;
+  justify-content: center;
   }
 }

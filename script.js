@@ -47,6 +47,18 @@ const data = [
     subject: 'Level 1 Physical Science',
     about: 'Joined ABS in January 2021. Besides teaching he enjoys playing the piano',
   },
+  {
+    image: 'images/jeff.png',
+    teacherName: 'Mr. Jeff',
+    subject: 'Level 1 Physical Science',
+    about: 'Joined ABS in January 2021. Besides teaching he enjoys playing the piano',
+  },
+  {
+    image: 'images/fred.png',
+    teacherName: 'Ms. Fred',
+    subject: 'Level 1 Physical Science',
+    about: 'Joined ABS in January 2021. Besides teaching he enjoys playing the piano',
+  },
 ];
 
 const mainCard = document.querySelector('.desktop-all-staff');
