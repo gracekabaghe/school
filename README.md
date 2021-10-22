@@ -52,7 +52,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Templated inspired by Cindy Shin https://www.behance.net/gallery/29845175/CC-Global-Summit-2015
+- Cindy Shin https://www.behance.net/gallery/29845175/CC-Global-Summit-2015
 - Image by Prince Akachi - Unsplash
 - Photo by <a href="https://unsplash.com/@chrisjoelcampbell?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Christopher Campbell</a> on <a href="https://unsplash.com/s/photos/portrait?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
