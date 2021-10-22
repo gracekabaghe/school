@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # school
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
@@ -63,3 +64,5 @@ Give a ⭐️ if you like this project!
 ## 📝 License
 
 This project is [MIT](./MIT.md) licensed.
+=======
+>>>>>>> 5eb90162fa6590f07c980c20e93ec954a69c3c6d
