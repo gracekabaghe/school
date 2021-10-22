@@ -506,7 +506,6 @@ article .about-21-in {
     color: #191919;
     font-size: 1.3em;
     box-shadow: 3px 3px 5px 6px #ccc;
-    /* position: fixed; */
     top: 0;
   }
 
@@ -736,15 +735,13 @@ article .about-21-in {
     width: 100%;
     height: 50px;
     color: #fff;
-    display: flex;
     list-style: none;
     justify-content: flex-end;
     gap: 20px;
     background-color: black;
-    margin-right: 15%;
+    margin: 0 15% 0 0;
     padding-right: 10%;
     align-items: center;
-    margin:0;
   }
 
   .about-top-nav-cont {
