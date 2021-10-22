@@ -779,11 +779,11 @@ article .about-21-in {
 
   #about-hero {
     display: flex;
-  font-family: 'Lato', sans-serif;
-  font-weight: 300;
-  color: #ec5242;
-  margin-bottom: 0;
-  font-size: 15px;
-  justify-content: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: #ec5242;
+    margin-bottom: 0;
+    font-size: 15px;
+    justify-content: center;
   }
 }
