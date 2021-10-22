@@ -6,8 +6,6 @@
 
 > ABS International School Site
 
-![screenshot](images/shot.png)
-
 The site features a new school that has a new teaching method.
 
 ## Built With
